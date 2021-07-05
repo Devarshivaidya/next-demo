@@ -1,0 +1,32 @@
+{
+  "name": "studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.",
+  "main": "package.json",
+  "author": "Devarshi Vaidya <devarshivaidya2307@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.12.2",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.12.2",
+    "@sanity/default-layout": "^2.12.2",
+    "@sanity/default-login": "^2.11.1",
+    "@sanity/desk-tool": "^2.12.2",
+    "@sanity/vision": "^2.11.2",
+    "init": "^0.1.2",
+    "next-sanity": "^0.2.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity": "^2.2.6"
+  },
+  "devDependencies": {}
+}
